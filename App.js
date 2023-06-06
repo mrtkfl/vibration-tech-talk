@@ -26,7 +26,7 @@ export default function App() {
 
       <View>
         <Button
-          title="Vibrate once" 
+          title="Vibrate in Pattern" 
           onPress={()=>Vibration.vibrate(PATTERN, true)} />
       </View>
 
